@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recording App</title>
+    <link rel = "stylesheet" href = "css/styles.css">
+</head>
+<body>
+    <main>
+        <section class  = "content" id ="record_area">
+            <p id = "message">Click or tap record to say your message.</p>
+            <div id = "do_buttons">
+            <input type = "button" class = "button" id  = "record" value ="Record">
+            <input type = "button" class = "button"  id  = "stop" value ="Stop">
+        </div>
+        </section>
+
+        
+        <div id  = "timer">
+            <h1><span id = "tens">00</span>:<span id  = "seconds">00</span></h1>
+        </div>
+
+        <section class = "content" id = "audio_area">
+            <div id  = "audio">
+                <audio id = "audio_bar" controls = "controls">
+ 
+                </audio>
+            </div>
+            
+            <input type = "button" class = "button" id  = "delete" value ="Redo">
+
+            <a href="#" download id = "download_blob"></a>
+
+            <a href = "http://autumnfrontend.io/" style = "color:navy;">View Portfolio</a>
+        </section>
+    </main>
+    
+    <script src = "js/script.js"></script>
+</body>
+</html>
